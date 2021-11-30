@@ -1,0 +1,68 @@
+:root {
+    --nav-color: #233c54;
+
+    --light-blue: #9BC4CB;
+    --honeydew: #CFEBDF;
+    --nyanza: #E2FADB;
+    --tea-green: #DBEFBC;
+
+    --alabaster: #e8eddf;
+    --light-green: #80ED99;
+    
+}
+
+
+/* Navigation Bar */
+.navbar {
+    background-color: var(--nav-color);
+    border-bottom: 1px var(--alabaster) solid;
+}
+.navbar-brand.h1:hover {
+    color: var(--tea-green);
+}
+
+
+/* Intro Section */
+@media (min-width: 767.9px) {
+    #intro h1 {
+        font-size: 10rem;
+    }
+}
+@media (max-width: 767.8px) {
+    #intro h1 {
+        font-size: 8rem;
+    }
+}
+#intro {
+    padding: 12rem 0 12rem 0;
+    background-color: var(--nav-color);
+}
+#intro h1 {
+    text-align: center;
+    margin: 4rem auto;
+    color: var(--alabaster);
+}
+#intro p {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+
+/* About Section */
+#about {
+    background-color: var(--alabaster);
+    color: var(--nav-color);
+    padding: 12rem 5rem 12rem 5rem;
+}
+
+#about h2 {
+    font-size: 3rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+}
+
+
+/* Previous Work Section */
