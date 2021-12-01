@@ -69,11 +69,26 @@
 }
 
 #familyPhoto {
-    width: 50em ;
+    
     border-radius: 10px;
     border: 1em whitesmoke solid;
 }
 
+@media (min-width: 992px) {
+    #familyPhoto {
+        width: 55%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+    #familyPhoto {
+        width: 70%;
+    }
+}
+@media (max-width: 767.8px) {
+    #familyPhoto {
+        width: 90%;
+    }
+}
 
 /* Work Experience Section */
 #workExperience {
@@ -98,3 +113,14 @@
     color: var(--tea-green);
 }
 
+/* Projects Section */
+
+#projects {
+    background-color: var(--alabaster);
+    color: var(--nav-color);
+    padding: 12rem 5rem;
+}
+
+#projects h2 {
+    font-size: 3rem;
+}
