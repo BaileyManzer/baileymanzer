@@ -125,6 +125,28 @@
     font-size: 3rem;
 }
 
+#projectContainer {
+    margin-top: 3rem;
+}
+
+#projects img {
+    width: 95%;
+    vertical-align: middle;
+}
+
+#projects h3 {
+    margin-top: 1rem;
+}
+
+.projectImageContainer {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+#frupalImage {
+    align-self: center;
+}
 
 /* Contact me Section */
 #contact {
@@ -143,4 +165,6 @@
 }
 #submitButton {
      margin-top: 1em;
+     color: var(--nav-color);
+     background-color: var(--tea-green);
 }
