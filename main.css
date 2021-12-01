@@ -1,13 +1,7 @@
 :root {
     --nav-color: #233c54;
-
-    --light-blue: #9BC4CB;
-    --honeydew: #CFEBDF;
-    --nyanza: #E2FADB;
     --tea-green: #DBEFBC;
-
     --alabaster: #e8eddf;
-    --light-green: #80ED99;
     
 }
 
@@ -86,7 +80,7 @@
 }
 @media (max-width: 767.8px) {
     #familyPhoto {
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -143,6 +137,8 @@
     width: 300px;
     height: 300px;
     margin: 0 auto;
+    align-content: center;
+    justify-content: center;
 }
 #frupalImage {
     align-self: center;
