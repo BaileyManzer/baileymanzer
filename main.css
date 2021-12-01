@@ -53,7 +53,7 @@
 #about {
     background-color: var(--alabaster);
     color: var(--nav-color);
-    padding: 12rem 5rem 12rem 5rem;
+    padding: 12rem 5rem;
 }
 
 #about h2 {
@@ -64,5 +64,28 @@
     font-size: 1.5rem;
 }
 
+#photoContainer {
+    text-align: center;
+}
 
-/* Previous Work Section */
+#familyPhoto {
+    width: 50em ;
+    border-radius: 10px;
+    border: 1em whitesmoke solid;
+}
+
+
+/* Work Experience Section */
+#workExperience {
+    background-color: var(--nav-color);
+    color: var(--alabaster);
+    padding: 12rem 5rem;
+}
+
+#workExperience h2 {
+    font-size: 3rem;
+}
+
+#workExperience ul {
+    list-style-type: none;
+}
