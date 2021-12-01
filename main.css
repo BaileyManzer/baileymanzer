@@ -82,6 +82,10 @@
     padding: 12rem 5rem;
 }
 
+#workExperience p {
+    width: 100%;
+}
+
 #workExperience h2 {
     font-size: 3rem;
 }
@@ -89,3 +93,8 @@
 #workExperience ul {
     list-style-type: none;
 }
+
+#workExperience li {
+    color: var(--tea-green);
+}
+
