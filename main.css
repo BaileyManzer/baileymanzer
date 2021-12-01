@@ -113,8 +113,8 @@
     color: var(--tea-green);
 }
 
-/* Projects Section */
 
+/* Projects Section */
 #projects {
     background-color: var(--alabaster);
     color: var(--nav-color);
@@ -123,4 +123,24 @@
 
 #projects h2 {
     font-size: 3rem;
+}
+
+
+/* Contact me Section */
+#contact {
+    background-color: var(--nav-color);
+    color: var(--alabaster);
+    padding: 12rem 5rem;
+}
+
+#contact input {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#contact label {
+    text-align: left;
+}
+#submitButton {
+     margin-top: 1em;
 }
