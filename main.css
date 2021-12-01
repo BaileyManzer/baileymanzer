@@ -131,13 +131,13 @@
 #projects h3 {
     margin-top: 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .projectImageContainer {
         width: 300px;
         height: 300px;
     }
 }
-@media (max-width: 767.8px) {
+@media (max-width: 991.8px) {
     .projectImageContainer {
         width: 150px;
         height: 150px;
