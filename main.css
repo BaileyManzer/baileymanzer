@@ -131,7 +131,7 @@
 #projects h3 {
     margin-top: 1rem;
 }
-@media (min-width: 767.9px) {
+@media (min-width: 768px) {
     .projectImageContainer {
         width: 300px;
         height: 300px;
@@ -139,8 +139,8 @@
 }
 @media (max-width: 767.8px) {
     .projectImageContainer {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 }
 .projectImageContainer {
@@ -152,6 +152,7 @@
 }
 #frupalImage {
     align-self: center;
+    margin: 0 auto;
 }
 
 /* Contact me Section */
