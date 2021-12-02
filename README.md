@@ -1,4 +1,4 @@
-#Bailey Manzer [Portfolio site](brmdagoat.github.io/baileymanzer)
-##To acess site go to: 
-###brmdagoat.github.io/baileymanzer
-##or click the link above.
+Bailey Manzer [Portfolio site](brmdagoat.github.io/baileymanzer)
+<br>To acess site go to: 
+<br>brmdagoat.github.io/baileymanzer
+<br>or click the link above.
